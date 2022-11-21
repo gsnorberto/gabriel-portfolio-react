@@ -1,7 +1,7 @@
 # Projeto: Meu Portfólio
 
 ### Tecnologias utilizadas:
-React.js
+React.js; Styled-components
 
 ### Desenvolvido por:
 Gabriel Norberto
