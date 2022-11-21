@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Head = styled.div`
+export const HeaderArea = styled.div`
     font-family: 'Roboto', sans-serif;
     position: fixed;
     width: 100%;
@@ -10,7 +10,8 @@ export const Head = styled.div`
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-
+    border: 1x solid #FFFFFF;
+    
     ul{
         width: 100%;
         height: 100%;
@@ -31,5 +32,6 @@ export const Head = styled.div`
 export const Container = styled.div`
     max-width: 1170px;
     height: 100%;
+    margin: 0 auto;
 `
 

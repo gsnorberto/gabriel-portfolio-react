@@ -1,8 +1,8 @@
-import { Head, Container } from './style.js';
+import { HeaderArea, Container } from './style.js';
 
-export const Header = () => {
+export default () => {
     return (
-        <Head>
+        <HeaderArea>
             <Container>
                 <ul className='menu-items'>
                     <li className='selected'>Início</li>
@@ -12,6 +12,6 @@ export const Header = () => {
                     <li>Contato</li>
                 </ul>
             </Container>
-        </Head>
+        </HeaderArea>
     );
 }
